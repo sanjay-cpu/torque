@@ -10,6 +10,9 @@ addons:
         - libhwloc-dev
         - libxml2-dev
 
+arch:
+  - amd64
+  - ppc64le
 matrix:
   include:
     - os: linux
